@@ -1,0 +1,403 @@
+body {
+  background-color: #fbfedc;
+  background-image: url(../img/bgtry1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: #f1edff;
+  /* text-align: center; */
+}
+nav{
+  background-color: #061445;
+}
+.container {
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+  padding: 5%;
+}
+.row {
+  width: 100%;
+}
+.main-glass {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  border-top: 1px solid rgba(241, 237, 255, 50%);
+  border-left: 1px solid rgba(241, 237, 255, 50%);
+  background-color: rgba(241, 237, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+}
+
+.register-btn {
+  padding: 5%;
+  border: none;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 25px;
+  margin-top: 20%;
+  background-color: #feb156;
+  color: #000;
+}
+
+.eventlogo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5%;
+  margin-top: -8%;
+  margin-bottom: 0%;
+}
+
+#gritxlogo{
+  background-image: url(../images/logo.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:1%; width: 110px;height: 60px;
+}
+
+#razzeldazzel{
+  background-image: url(../images/razzle-dazzle.jpeg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cric-mania-logo{
+  background-image: url(../images/cric-maniya.jpeg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#picture-sque-logo{
+  background-image: url(../images/picture-sque.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#peakyfinders{
+  background-image: url(../images/peaky-finders.jpeg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#postervia{
+  background-image: url(../images/Postervia.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#campus-ambassador{
+  background-image: url(../images/campus-ambassador.jpeg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#workshop{
+  background-image: url(../images/NSS-PRISM.png) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#artfromwaste{
+  background-image: url(../images/Art\ from\ waste.jpg) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.glass {
+  position: relative;
+  display: flex;
+  width: 90%;
+  height: 350px;
+  border-top: 1px solid rgba(241, 237, 255, 50%);
+  border-left: 1px solid rgba(241, 237, 255, 50%);
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background: linear-gradient(
+    -45deg,
+    rgba(6, 20, 69, 60%),
+    rgba(6, 20, 69, 20%)
+  );
+  color: #f1edff;
+  margin: 5%;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.detailbox {
+  margin-top: 15%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  position: absolute;
+  border-radius: 5px;
+  border-top: 1px solid rgba(241, 237, 255, 50%);
+  border-left: 1px solid rgba(241, 237, 255, 50%);
+  background-color: rgba(61, 222, 182, 85%);
+  color: black;
+  text-shadow: black;
+  width: 110px;
+  height: 130px;
+  margin-top: -5%;
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+}
+
+.subcontainer {
+  display: flex;
+}
+
+#rulesbox {
+  margin: 2%;
+  margin-top: 20%;
+  height: 400px;
+}
+
+#prizetile {
+  width: 120px;
+}
+
+#prize-glass {
+  width: 50%;
+  height: 150px;
+}
+
+#prizebox {
+  margin: 2%;
+  margin-top: 10%;
+  height: 400px;
+}
+
+#secondcol {
+  margin-top: -5%;
+}
+#timelinetile {
+  width: 160px;
+}
+
+#timeline-glass {
+  height: 250px;
+}
+
+#footertile {
+  width: 250px;
+  height: 100px;
+  margin-top: -4%;
+}
+
+#footer-glass {
+  width: 60%;
+  height: 180px;
+}
+
+.download-btn {
+  background-color: black;
+  padding: 2%;
+  border: none;
+  border-radius: 15%;
+  color: #3ddeb6;
+  margin-left: 45%;
+}
+.download-btn:hover {
+  color: black;
+  background-color: #3ddeb6;
+}
+
+footer{
+  background: linear-gradient(rgba(6, 20, 69, 100%), rgba(6, 20, 69, 90%));
+}
+
+.flex-container .box {
+  align-items: center;
+  border-top: 1px solid rgba(241, 237, 255, 50%);
+  border-left: 1px solid rgba(241, 237, 255, 50%);
+  background-color: rgba(241, 237, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  margin: 20px;
+  text-align: center;
+  width: 30%;
+  /* border-radius: 10px; */
+}
+
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-color: #fbfedc;
+    background-image: url(../img/bgtry1.png);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  * {
+    font-size: medium;
+  }
+  h1 {
+    text-align: center;
+  }
+  .eventlogo {
+    width: 180px;
+    height: 180px;
+  }
+  .register-btn {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 25px;
+    /* margin-top: 100%; */
+    margin-left: 35%;
+  }
+
+  .main-container {
+    margin-top: 15%;
+    margin-left: 5%;
+    width: 95%;
+    padding: 5%;
+  }
+  #prizebox {
+    margin: 2%;
+    margin-top: 10%;
+    height: 190px;
+  }
+  .title {
+    margin-top: -8%;
+  }
+  #footertile {
+    margin-top: -9%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  * {
+    font-size: medium;
+  }
+  .register-btn {
+    margin-top: 5%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 25px;
+    margin-left: 35%;
+  }
+  body {
+    background-color: #fbfedc;
+    background-image: url(../img/bgtry2.jpg);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  }
+  .title {
+    width: 80px;
+    height: 90px;
+    margin-top: -10%;
+  }
+
+  #footertile {
+    width: 230px;
+    height: 80px;
+    margin-top: -10%;
+  }
+  #footer-glass {
+    width: 80%;
+    height: 300px;
+    margin-top: 18%;
+  }
+  .flex-container .box{
+    width: 80%;
+    margin-left: 8%;
+  }
+  #gritxlogo{
+    width: 50px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    font-size: small;
+  }
+  .main-container {
+    margin-top: 20%;
+    margin-left: 6%;
+  }
+  .title {
+    width: 80px;
+    height: 90px;
+    margin-top: -15%;
+  }
+  .register-btn {
+    display: flex;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 25px;
+    margin-top: 2%;
+    margin-left: 30%;
+    background-color: #feb156;
+    color: #000;
+  }
+  #footertile {
+    display: flex;
+    text-align: center;
+    width: 120px;
+    margin-top: -20%;
+  }
+  #footer-glass {
+    width: 80%;
+    height: 260px;
+    margin-top: 22%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .eventlogo {
+    width: 150px;
+    height: 150px;
+  }
+  .title {
+    width: 80px;
+    height: 90px;
+    margin-top: -15%;
+  }
+  #footertile {
+    display: flex;
+    text-align: center;
+    width: 120px;
+    margin-top: -15%;
+  }
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+#h {
+  text-indent: 1%;
+  color: #feb156;
+  padding: 5px 5px 5px 5px;
+  font-size: 20px;
+}
+#s {
+  color: white;
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}

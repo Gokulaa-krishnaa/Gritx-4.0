@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/lightslider.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!--JQUERY-->
+    <script type="text/javascript" src="js/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <title>  Gritx4.0</title>
+    <link rel="icon" href="../img/logo.png" type="image/png"> 
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div id="gritxlogo" style="width: 110px;height: 60px;" class="eventlogo col-xxl-1 col-lg-1 col-md-3 col-sm-12">
+        </div>
+      <a href="#" class="navbar-brand">Gritx4.0</a>
+          <!--Nav-bar Toggler -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+       <!-- End of Nav-bar Toggler -->
+      <div class="collapse navbar-collapse" id="navmenu" >
+          <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                  <a href="#home" class="nav-link">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="#events" class="nav-link">EVENTS</a>
+            </li>
+            
+              <li class="nav-item">
+                  <a href="#campusambassador" class="nav-link">CAMPUS AMBASSADOR</a>
+              </li>
+              <li class="nav-item">
+                <a href="#workshop" class="nav-link">WORKSHOP</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#aboutus" class="nav-link">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#contactus" class="nav-link">CONTACT US</a>
+              </li>
+          </ul>
+      </div>
+
+      </div>  
+  </nav>
+
+    <!-- NAV BAR END -->
+
+    <!-- HOME PAGE -->
+    <section class="text-light p-5 text-center text-sm-start" id="home" >
+        <div class="container">
+           <div class="d-sm-flex align-items-center justify-content-between">
+               <div >
+                   <h1>Welcome to <span class="text-warning">Gritx4.0</span> </h1>
+                   <p class="lead my-4">
+                    GRITx (X - Xemplers) is a genesis & upward journey in Sri Sai Ram Engineering College. GRITx is the event organised by NSS Volunteers of Sri Sai Ram Engineering College which serves as a model for being passionate towards service where you can find technical and competitive events. GRITx is a personality trait based on individual's persistent effort combined with the passion for a particular long term goal or end state.
+                   </p>
+
+                   <!-- 
+                       Registration Button Demo 
+                       <button class="btn btn-primary btn-lg">Register</button>
+                    -->
+               </div>
+                    <div class="auto-slider">
+                    <div  id="slider" style="border-radius: 10px;">
+                      <figure>
+                        <img class="hello" src="images/razzle-dazzle.jpeg" alt="Image">
+                        <img class="hello" src="images/cric-maniya.jpeg" alt="Image">
+                        <img class="hello" src="images/picture-sque.jpg" alt="Image">
+                        <img class="hello" src="images/Postervia.jpg" alt="Image">
+                        <img class="hello" src="images/Art from waste.jpg" alt="Image">
+                        <img class="hello" src="images/peaky-finders.jpeg" alt="Image">
+
+                          
+                         
+                      </figure>
+                  </div>
+                  </div>
+                </div>
+               
+        </div>
+    </section>
+    
+    <!-- TECHNICAL EVENT SECTION -->
+    <section id="questions" class="p-5">
+      <h2 class="text-center mb-4">EVENTS</h2>
+        <div class="slider1" id="events" >
+            <!---SLIDER-->
+            <ul id="autoWidth" class="cs-hidden">
+                <!-------------------1------------------->
+                <li class="item-a">  <!--SLIDER BOX-->
+                    <div class="content" >
+                        <div class="imgBx">
+                          <img src="images/razzle-dazzle.jpeg" alt="">
+                        </div>
+                        <div class="text">
+                          <span>RAZZLE DAZZLE</span>
+                        </div>
+                        <div class="tag">
+                          <span>DESCRIPTION</span>
+                        </div>
+                        <div class="info">
+                          <p>● Enjoy the event with our simple innovations.<br> 
+                            ● Play with fun and without pressure.<br> 
+                            ● 100% fun guaranteed.<br>
+                        </p>
+                        </div>
+                        <div class="button">
+                          
+                          <button onclick="goto('razzledazzle.html')">KNOW MORE</button>
+                          <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdD2JOb9MgpZNFSsNY1l88fV5yXm0e2von2PlpaVTAZb3ssiA/viewform')">REGISTER</button>
+                          
+                        </div>
+                        <a href="https://t.me/joinchat/6qq2zO3KZElkZjVl" target="_blank" style="color: #fff" >JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+                      </div>
+                </li>
+            <!-------------------2------------------->
+            <!-------------------1------------------->
+            <li class="item-a">  <!--SLIDER BOX-->
+                <div class="content">
+                    <div class="imgBx">
+                      <img src="images/cric-maniya.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                      <span>CRICMANIA</span>
+                    </div>
+                    <div class="tag">
+                      <span>DESCRIPTION</span>
+                    </div>
+                    <div class="info">
+                      <p></p>
+                    </div>
+                    <div class="button">
+                      <button onclick="goto('cricmania.html')" target>KNOW MORE</button>
+                      <button onclick="window.open('https://forms.gle/rtAzNXCqTHBW43Ss7')" target="_blank" style="color: #fff">REGISTER</button>
+                    </div>
+                    <a href="https://t.me/joinchat/eamJs1bYRG9hZjU1" target="_blank" style="color: #fff"  >JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+                  </div>
+            </li>
+            <!-------------------3------------------->
+            <li class="item-a">  <!--SLIDER BOX-->
+                <div class="content">
+                    <div class="imgBx">
+                      <img src="images/picture-sque.jpg" alt="">
+                    </div>
+                    <div class="text">
+                      <span>PICTURE SQUE</span>
+                    </div>
+                    <div class="tag">
+                      <span>DESCRIPTION</span>
+                    </div>
+                    <div class="info">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni.</p>
+                    </div>
+                    <div class="button">
+                      <button onclick="goto('Picture-Sque.html')">KNOW MORE</button>
+                      <button onclick="window.open('https://forms.gle/YQAN5P6cwJsEXkfcA')">REGISTER</button>
+                    </div>
+                    
+                    <a href="https://t.me/joinchat/grdBjO49gTMyMTM1" target="_blank" style="color: #fff">JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+                  </div>
+            </li>
+            <!-------------------4------------------->
+            <li class="item-a">  <!--SLIDER BOX-->
+                <div class="content">
+                    <div class="imgBx">
+                      <img src="images/Postervia.jpg" alt="">
+                    </div>
+                    <div class="text">
+                      <span>POSTERIVA</span>
+                    </div>
+                    <div class="tag">
+                      <span>DESCRIPTION</span>
+                    </div>
+                    <div class="info">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni </p>
+                    </div>
+                    <div class="button">
+                      <button onclick="goto('Postervia.html')">KNOW MORE</button>
+                      <button onclick="window.open('https://forms.gle/78H34gv7k4GXhymh9')">REGISTER</button>
+                    </div>
+                    <a href="https://t.me/joinchat/9ZoMC9itx0k2OGY1" target="_blank" style="color: #fff">JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+                  </div>
+            </li>
+            <!-------------------5------------------->
+            <li class="item-a">  <!--SLIDER BOX-->
+                <div class="content">
+                    <div class="imgBx">
+                      <img src="images/Art from waste.jpg" alt="">
+                    </div>
+                    <div class="text">
+                      <span>BEST OF WASTE</span>
+                    </div>
+                    <div class="tag">
+                      <span>DESCRIPTION</span>
+                    </div>
+                    <div class="info">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni </p>
+                    </div>
+                    <div class="button">
+                      <button onclick="goto('Artfromwaste.html')">KNOW MORE</button>
+                      <button onclick="window.open('https://forms.gle/5W2YYEdk65xoLCT77')">REGISTER</button>
+                    </div>
+                    <a href=" https://t.me/joinchat/OFCZh0n-Mtc0Nzdl" target="_blank" style="color: #fff">JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+          
+                  </div>
+            </li>
+            <!-------------------6------------------->
+            <li class="item-a">  <!--SLIDER BOX-->
+                <div class="content">
+                    <div class="imgBx">
+                      <img src="images/peaky-finders.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                      <span>PEAKY FINDERS</span>
+                    </div>
+                    <div class="tag">
+                      <span>DESCRIPTION</span>
+                    </div>
+                    <div class="info">
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni </p>
+                    </div>
+                    <div class="button">
+                      <button onclick="goto('peakyfinders.html')">KNOW MORE</button>
+                      <button onclick="window.open('https://forms.gle/WYLGPmhdjYg3Yzww7')">REGISTER</button>
+                    </div>
+                    <a href="https://t.me/joinchat/S2F8lKHd97BjNDY1" target="_blank" style="color: #fff">JOIN US ON TELEGRAM<img src="img/tele.png" alt="telegramlink" width="35px" height="35px" style="margin-bottom: 3%;"></a>
+                  </div>
+            </li>
+        </ul> 
+    </div>
+    </div>
+</section>
+
+    <!-- EVENT SECTION END -->
+  
+    <!-- Campus Ambassador -->
+
+    <section id="questions" class="p-5">
+      <div class="row">
+      <div class="container col-lg-6">
+          <h2 class="text-center mb-4">CAMPUS AMBASSADOR</h2>
+      <div class="wrapper" >
+      <div class="wrapper" id="campusambassador">
+          <div class="content">
+            <div class="imgBx">
+              <img src="images/campus-ambassador.jpeg" alt="">
+            </div>
+            <div class="text">
+              <span>CAMPUS AMBASSADOR</span>
+            </div>
+            <div class="tag">
+              <span>DESCRIPTION</span>
+            </div>
+            <div class="info">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni </p>
+            </div>
+            <div class="button">
+              <button onclick="goto('campusambassador.html')">KNOW MORE</button>
+              <button onclick="window.open('https://forms.gle/TNWXV1ZvNXsqimLb8')">REGISTER</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="workshop" class="container col-lg-6">
+        <h2 class="text-center mb-4">WORK SHOP</h2>
+    <div class="wrapper" >
+    <div class="wrapper" id="campusambassador">
+        <div class="content">
+          <div class="imgBx">
+            <img src="images/NSS-PRISM.png" alt="">
+          </div>
+          <div class="text">
+            <span>NSS PRISM</span>
+          </div>
+          <div class="tag">
+            <span>DESCRIPTION</span>
+          </div>
+          <div class="info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, labore id eveniet maiores eum necessitatibus magni </p>
+          </div>
+          <div class="button">
+            <button onclick="goto('workshop.html')">KNOW MORE</button>
+            <button onclick="window.open('https://forms.gle/kqsWZJdEAVwe6LtNA')">REGISTER</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+      
+    </section>
+    <!-- FAQ WITH ACCORDION -->
+<!-- Question Accordion -->
+<section id="questions" class="p-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+      <div class="accordion accordion-flush" id="questions">
+        <!-- Item 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-one"
+            >
+            1.when will the event starts ? 
+            </button>
+          </h2>
+          <div
+            id="question-one"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              The event will be held between sept 17 - sept 20. The details of  each event  and timing will be shared to you in individual mail.
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-two"
+            >
+            2.To whom can I ask futher details of the events to be conducted ? 
+            </button>
+          </h2>
+          <div
+            id="question-two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              You can contact us through mail as we mentioned in the poster or you can call the contact numbers mentioned individually  in every posters.
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-three"
+            >
+            3.Is there any link for registration?
+            </button>
+          </h2>
+          <div
+            id="question-three"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Participants can register using the Google forms link given individually for all events.
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-four"
+            >
+            4.When the winners will be announced? 
+            </button>
+          </h2>
+          <div
+            id="question-four"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              All the winners will be announced on September 24th, 2021. 
+            </div>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#question-five"
+            >
+            5.Will all the participants receive certificate?
+            </button>
+          </h2>
+          <div
+            id="question-five"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Yes, all the participants will receive the certificate of appreciation to your registered email id.
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- FAQ WITH ACCORDION END -->
+    <footer class="main-footer">
+    <!-- About section  -->
+
+    <div class="flex-container" id="aboutus">
+      <div class="box" style="width: 100%;">
+      <span id="h">About Nss</span>
+      <hr style="width:60% ;color:white; background-color: white;">
+        <p id="s">The National Service Scheme (NSS) is an Indian government-sponsored public service program conducted by the Ministry of Youth Affairs and Sports of the Government of India, popularly known as NSS. The scheme was launched in Gandhiji's Centenary year, 1969 aimed at developing student's personality through community service. NSS is a voluntary association of young 
+            people in Colleges, Universities and at +2 level working for a campus-community linkage</p>
+      </div>
+      </div>
+    <!-- Contact & Address Section -->
+    
+      <div class="flex-container row" id="contactus">
+        <div class="box col-sm-12 col-md-6">
+          <span id="h">CONTACTS</span>
+          <hr style="width:60% ;color:white; background-color: white;">
+          <p id="s"> Dr.G. Sathish Kumar : +91 91766 14721<br>
+            Dr. Uma maheswaran : +91 98407 22474<br><br>
+            S.SHANMUGANATHAN : +91 6382388264<br>
+            Srivarshan G : +91 9842810900 <br>
+            JAYASURYA.V : 9940438387
+          </p> 
+            <span id="h">E-MAIL</span>
+            <hr style="width:60% ;color:white; background-color: white;">
+            <p style="align-items: center;" id="s">nsssairam@sairam.edu.in<br>
+              Subject - HELP DESK - YOUR SUBJECT</p>
+            </p>
+        </div>
+
+        <div class="box col-sm-12 col-md-6 " >
+          <span id="h">ADDRESS</span>
+            <hr style="width:60% ;color:white; background-color: white;">
+            <p id="s">
+                SRI SAI RAM ENGINEERING COLLEGE,<br>
+                Sai Leo Nogar,West Tambaram, <br>Chennai - 600 044. Tamil Nadu, India
+            </p>
+            <span id="h">LOCATE</span>
+            <hr style="width:60% ;color:white; background-color: white;">
+            <div>
+                <iframe
+                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1817803314784!2d80.05521841452526!3d12.960217090863361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f596c7fb72c9%3A0x8e7a30529f9ef227!2sSri%20Sairam%20Engineering%20College!5e0!3m2!1sen!2sin!4v1630155044215!5m2!1sen!2sin" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+      </div>
+      </div>
+
+      <!-- Contact & Address Section End-->
+
+    <!-- Footer section -->
+
+   
+      <hr/>
+      <div class="row">
+          <div class="col-sm">
+              <p class="text-center"  style="color:white">&COPY; 2021 SairamNSS | All rights reserved.</p>
+          </div>
+      </div>
+  </footer>
+    <!--  Footer section end -->
+
+
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="js/main.js"></script>
+
+</body>
+</html>
